@@ -1,0 +1,43 @@
+/* this is the style for the home page after login */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+nav{
+    padding-left: 100px!important;
+    padding-right: 100px!important;
+    background: #6665ee;
+    font-family: 'Poppins', sans-serif;
+} 
+nav a.navbar-brand{
+    color: #fff;
+    font-size: 30px!important;
+    font-weight: 500;
+}
+button a{
+    color: #6665ee;
+    font-weight: 500;
+}
+button a:hover{
+    text-decoration: none;
+}
+h1{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-size: 34px;
+    font-weight: 600;
+}
+h3{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+}
+span{
+    color:#6665ee;
+}
+.video{
+    margin-top: 100px;
+}
