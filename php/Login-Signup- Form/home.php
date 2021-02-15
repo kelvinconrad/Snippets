@@ -35,7 +35,10 @@ if($email != false && $password != false){
     <nav class="navbar">
     <a class="navbar-brand" href="#">Kelvin Conrad</a>
     <h3 class="text-center">Satisfying Looping Videos</h3>
-    <button type="button" class="btn btn-light"><a href="logout-user.php">Logout</a></button>
+    <button type="button" class="btn btn-light"><a href="logout-
+    
+    
+    .php">Logout</a></button>
     </nav>
     <h1>Welcome <span><?php echo $fetch_info['name'] ?></span> </h1>
     <section class="video">
