@@ -1,10 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 .inside{
     margin-top: 150px;
 }
 
 .form-pop{
-    background-color: rgb(184, 184, 184);
+    border: 1px solid #000;
+    padding: 25px;
+}
+.title{
+    font-family: poppins;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+.list h3{
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.list p{
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #2F2E2E;
 }
 .form{
-    border: 1px solid #fff;
+    border: 1px solid #DDDDDD;
+    height: 100%;
+}
+.form h3{
+    font-family: poppins;
+    font-weight: 600;
+    margin-bottom: 45px;
+    padding-top: 23px;
+}
+.form .nav-tabs{
+    background-color: #000;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+.form .nav-tabs .nav-item :hover{
+    border: none;
+    color: #70BE48 ;
+}
+.form .nav-tabs a{
+    text-decoration: none;
+    color: #fff;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 18px 20px;
+}
+.form .nav-tabs .nav-link.active{
+    background-color: #70BE48;
+    color: #fff;
+    border: none;
 }
