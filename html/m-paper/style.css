@@ -11,19 +11,21 @@
     font-family: poppins;
     font-weight: 600;
     margin-bottom: 45px;
+    font-size: 27px;
 }
 .list h3{
     font-family: poppins;
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 16px;
     margin-bottom: 20px;
 }
 .list p{
     font-family: poppins;
-    font-weight: 300;
-    font-size: 18px;
+    font-weight: 400;
+    font-size: 14px;
     margin-bottom: 30px;
     color: #2F2E2E;
+    line-height: 20px;
 }
 .form{
     border: 1px solid #DDDDDD;
@@ -36,14 +38,21 @@
     padding-top: 23px;
 }
 .form .nav-tabs{
-    background-color: #000;
     border: none;
+    background-color: #000;
+    margin: 0 auto;
+    display: flex;
     justify-content: center;
-    align-items: center;
+}
+.form .nav-tabs .nav-link{
+    border: none;
+    /* border-top-right-radius:9px;
+    border-bottom-right-radius:9px; */
+    border-top-left-radius: 0;
 }
 .form .nav-tabs .nav-item :hover{
-    border: none;
-    color: #70BE48 ;
+    border: 0.05px solid #70BE48;
+    margin-bottom: 0;
 }
 .form .nav-tabs a{
     text-decoration: none;
@@ -58,3 +67,53 @@
     color: #fff;
     border: none;
 }
+.tab-pane p{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #2F2E2E;
+}
+.tab-pane input{
+    margin-bottom: 25px;
+}
+.tab-pane .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: 1.6rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.tab-pane .form-control:focus{
+    color: #495057;
+    background-color: #fff;
+    border-color: #70BE48;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #6fbe4843 !important;
+}
+.tab-pane span a{
+    text-decoration: none;
+    color: #70BE48;
+    font-weight: 500;
+}
+.tab-pane .submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+}
+.tab-pane .btn-primary{
+    background-color: #141414;
+    border: none;
+    border-radius: 0;
+    padding: 20px 35px;
+}
+
