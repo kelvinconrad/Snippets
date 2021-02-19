@@ -2,24 +2,23 @@
 .inside{
     margin-top: 150px;
 }
-
 .form-pop{
     border: 1px solid rgb(89, 89, 89);
     padding: 25px;
 }
-.title{
+.form-pop .title{
     font-family: poppins;
     font-weight: 600;
     margin:30px 0 45px 0;
     font-size: 27px;
 }
-.list h3{
+.form-pop .list h3{
     font-family: poppins;
     font-weight: 600;
     font-size: 16px;
     margin-bottom: 20px;
 }
-.list p{
+.form-pop .list p{
     font-family: poppins;
     font-weight: 400;
     font-size: 14px;
