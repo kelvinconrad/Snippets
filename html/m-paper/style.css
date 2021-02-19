@@ -46,39 +46,39 @@
     color: #2F2E2E;
     line-height: 20px;
 }
-.form{
+.inside .form{
     border: 1px solid #DDDDDD;
     height: 100%;
 }
-.form h3{
+.inside .form h3{
     font-family: poppins;
     font-weight: 600;
     margin-bottom: 45px;
     padding-top: 23px;
 }
-.form .nav-tabs{
+.inside .form .nav-tabs{
     border: none;
     background-color: #000;
     margin: 0 auto;
     display: flex;
     justify-content: center;
 }
-.form .nav-tabs .nav-link{
+.inside .form .nav-tabs .nav-link{
     border: none;
     /* border-top-right-radius:9px;
     border-bottom-right-radius:9px; */
     border-top-left-radius: 0;
 }
-.form .nav-tabs .nav-item{
+.inside .form .nav-tabs .nav-item{
     width: 50%;
 }
-.form .nav-tabs .nav-item :hover{
+.inside .form .nav-tabs .nav-item :hover{
    background-color: #6fbe4837;
    width: 100%;
     margin-bottom: 0;
     transition: linear 1s;
 }
-.form .nav-tabs a{
+.inside .form .nav-tabs a{
     text-decoration: none;
     color: #fff;
     font-family: poppins;
@@ -86,7 +86,7 @@
     font-size: 20px;
     padding: 18px 20px;
 }
-.form .nav-tabs .nav-link.active{
+.inside .form .nav-tabs .nav-link.active{
     background-color: #70BE48;
     color: #fff;
     border: none;
@@ -99,10 +99,10 @@
     margin-bottom: 30px;
     color: #2F2E2E;
 }
-.tab-pane input{
+.inside .tab-pane input{
     margin-bottom: 30px;
 }
-.tab-pane .form-control {
+.inside .tab-pane .form-control {
     display: block;
     width: 100%;
     height: calc(1.5em + .75rem + 2px);
@@ -117,25 +117,25 @@
     border-radius: .25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
-.tab-pane .form-control:focus{
+.inside .tab-pane .form-control:focus{
     color: #495057;
     background-color: #fff;
     border-color: #70BE48;
     outline: 0;
     box-shadow: 0 0 0 0.2rem #6fbe4843 !important;
 }
-.tab-pane span a{
+.inside .tab-pane span a{
     text-decoration: none;
     color: #70BE48;
     font-weight: 500;
 }
-.tab-pane .submit{
+.inside .tab-pane .submit{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 55px;
 }
-.tab-pane .btn-primary{
+.inside .tab-pane .btn-primary{
     background-color: #141414;
     border: none;
     border-radius: 0;
